@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    padding: 2px 5px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: 500ms;
+}
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+input {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #333;
+    padding: 4px 0px;
+    line-height: 4px;
+}
+
+.nav-header-main {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #eee;  
+}
+
+.logo {
+    width: 50px;
+}
+
+header {
+    margin: 10px;
+}
+
+.sign-up {
+    margin-top: 5px;
+    position: absolute;
+    color: #eee;
+    background-color: #333;
+    padding: 2px 5px;
+    transition: 500ms;
+}
+.sign-up:hover {
+    background-color: #fff;
+    color: #333;
+}
+.log-out {
+    margin-left: 100px;
+    margin-top: 5px;
+    padding: 2px 5px;
+}
+
+/*INDEX.PHP*/
+
+.wrapper-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    background-color: #333;
+    color: #eee;
+}
+.section-default {
+    margin-top: 50px;
+}
+
+/*SIGNUP.PHP*/
+
+.form-signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-signup input {
+    margin-bottom: 10px;
+}
+
+.sign-up-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
