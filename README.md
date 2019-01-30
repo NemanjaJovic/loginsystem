@@ -1,1 +1,1 @@
-# loginsystem
+# It may not look pretty, but it is a fully functional login system. Since GitHub supports only static pages you can't really use it here. But you can have a look at my source code. I hope you like it, and have a good day.
