@@ -12,8 +12,8 @@
 </head>
 <body>
     <header>
-        <nav class="nav-header-main">
-            <a href="index.php" class="header-logo">
+        <nav class="navigation">
+            <a href="index.php">
                 <img class="logo" src="logo.png" alt="Logo">
             </a>
             <div class="header-login">
@@ -23,12 +23,14 @@
                         <button class="log-out" type="submit" name="logout-submit">Log out</button>
                     </form>';
                     } else {
-                        echo '<form action="includes/login.inc.php" method="post">
-                        <input type="text" name="mailuid" placeholder="Username/e-mail">
-                        <input type="password" name="pwd" placeholder="Password">
-                        <button type="submit" name="login-submit">Log in</button>
-                    </form>
-                    <a class="sign-up" href="signup.php">Sign up</a>';
+                        echo '<div class="login-wrapper">
+                        <form class="login-form" action="includes/login.inc.php" method="post">
+                                <input type="text" name="mailuid" placeholder="Username/e-mail">
+                                <input type="password" name="pwd" placeholder="Password">
+                                <button type="submit" name="login-submit">Log in</button>
+                            </form>
+                            <a class="signup-btn" href="signup.php">Sign up</a>
+                        </div>';
                     }
                 ?> 
             </div>

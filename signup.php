@@ -3,18 +3,15 @@
 ?>
 
 <main>
-    <div class="wrapper-main">
-        <section class="section-default">
-            <h1 class="sign-up-title">Sign up</h1>
-            <form class="form-signup" action="includes/signup.inc.php" method="post">
-                <input type="text" name="uid" placeholder="Username">
-                <input type="text" name="mail" placeholder="E-mail">
-                <input type="password" name="pwd" placeholder="Password">
-                <input type="password" name="pwd-repeat" placeholder="Confirm password">
-                <button type="submit" name="signup-submit">Sign up</button>
-            </form>
-        </section>
-    </div>
+    <section class="signup-section">
+        <form class="signup-form" action="includes/signup.inc.php" method="post">
+            <input class="signup-input" type="text" name="uid" placeholder="Username">
+            <input class="signup-input" type="text" name="mail" placeholder="E-mail">
+            <input class="signup-input" type="password" name="pwd" placeholder="Password">
+            <input class="signup-input" type="password" name="pwd-repeat" placeholder="Confirm password">
+            <button class="signup-submit-btn" type="submit" name="signup-submit">Sign up</button>
+        </form>
+    </section>
 </main>
 
 
